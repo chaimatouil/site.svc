@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<title>Soft&Training</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body id="myPage">
+    <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+          <i class="fa fa-remove"></i>
+        </a>
+        <a href="/quinous" class="w3-bar-item w3-button">Qui sommes nous?</a>
+        <a href="/expertise" class="w3-bar-item w3-button">Notre Expertise</a>
+        <a href="/nosservices" class="w3-bar-item w3-button">Nos Services</a>
+        <a href="/references" class="w3-bar-item w3-button">Nos references</a>
+        <a href="contact" class="w3-bar-item w3-button">Contactez-nous</a>
+    </nav>
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-theme-d2 w3-left-align">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            <a href="/acceuil" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>SOFT&TRAINING</a>
+            <a href="/quinous" class="w3-bar-item w3-button w3-hide-small w3-hover-white ">Qui sommes nous?</a>
+            <a href="/expertise " class="w3-bar-item w3-button w3-hide-small w3-hover-white ">Notre Expertise</a>
+            <a href="/nosservices " class="w3-bar-item w3-button w3-hide-small w3-hover-white ">Nos Services</a>
+            <a href="/references " class="w3-bar-item w3-button w3-hide-small w3-hover-white ">Nos references</a>
+            <a href="contact " class="w3-bar-item w3-button w3-hide-small w3-hover-white ">Contactez-nous</a>
+
+
+            <a href="/acceuil " class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal " title="Search ">Rechercher<i class="fa fa-search "></i></a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo " class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium ">
+            <a href="/quinous " class="w3-bar-item w3-button ">Qui sommes nous?</a>
+            <a href="/expertise " class="w3-bar-item w3-button ">Notre Expertise</a>
+            <a href="/nosservices " class="w3-bar-item w3-button ">Nos Services</a>
+            <a href="/contact " class="w3-bar-item w3-button ">Contactez-nous</a>
+            <a href="/acceuil" class="w3-bar-item w3-button ">Search</a>
+        </div>
+    </div>
+
+    <!-- Image Header -->
+    <div class="w3-display-container w3-animate-opacity ">
+        <img src="assets/images/acceuil1.jpg " alt="boat " style="width:100%;min-height:350px;max-height:600px; ">
+        <div class="w3-container w3-display-bottomleft w3-margin-bottom ">
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal " title="Go To Soft&Training.com ">Qui sommes nous?</button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-card-4 w3-animate-top">
+            <header class="w3-container w3-teal w3-display-container">
+                <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+                <h4>Diffuser l'information pour booster votre compétitivité</h4>
+                <h5>Plus que des partenaires nous sommes des boosters d’informations et de développement<i class="fa fa-smile-o"></i></h5>
+            </header>
+            <div class="w3-container">
+                <p>L’ambition de Soft&Training est de faciliter et de simplifier la gestion des informations au sein de votre entreprise. Soft&Training vous accompagne dans l’optimisation de votre outil de gestion en garantissant son adéquation avec les
+                    enjeux de votre métier et sert la stratégie de votre organisation. L’expérience des consultants Soft&Training leur permet de s’immerger rapidement dans votre univers. Ils vous apportent un accompagnement pragmatique.</p>
+                <p>Go to our
+                    <a class="w3-text-teal" href="/w3css/default.asp">QuiSommesNous?.com</a> to learn more!</p>
+            </div>
+            <footer class="w3-container w3-teal">
+                <p>Lire Plus</p>
+            </footer>
+        </div>
+    </div>
+
+
+    <!-- Nos services Container -->
+    <div class="w3-container w3-padding-64 w3-center " id="team ">
+        <h2>Vous accompagner pour booster votre sérénité</h2>
+        <button onclick="document.getElementById( 'id02').style.display='block' " style="border-radius: 12px; background-color:blue; " class="w3-button w3-xlarge w3-theme w3-hover-teal " title="Go To Soft&Training.com ">Nos Services</button>
+
+        <p>IL EXISTE UNE SOLUTION Soft&Training ADAPTÉE À VOTRE SECTEUR D’ACTIVITÉ POUR QUE VOUS SOYEZ NATIVEMENT BIEN ARMÉ :</p>
+
+
+        <!-- Modal -->
+        <div id="id02" class="w3-modal">
+            <div class="w3-modal-content w3-card-4 w3-animate-top">
+                <header class="w3-container w3-teal w3-display-container">
+                    <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+                    <h4>Nos Services</h4>
+                    <h5>Une offre pour chaque métier...<i class="fa fa-smile-o"></i></h5>
+                </header>
+                <div class="w3-container">
+                    <p>Parce que nos expériences nous ont amené à accompagner des projets d’intégration dans vos différents secteurs, nous avons spécialisé nos solutions, les fonctionnalités ERP et nos approches de mise en œuvre, pour répondre nativement
+                        à chacune des caractéristiques propres à vos activités.</p>
+                    <p>Go to our
+                        <a class="w3-text-teal" href="/w3css/default.asp">NosServices.com</a> to learn more!</p>
+                </div>
+                <footer class="w3-container w3-teal">
+                    <p>Lire Plus</p>
+                </footer>
+            </div>
+        </div>
+
+
+
+        <div class="w3-row "><br>
+
+            <div class="w3-quarter ">
+                <img src="assets/images/services1.jpg " alt="Boss " style="width:90% " class="w3-circle w3-hover-opacity ">
+                <h3>Delivery </h3>
+                <p>Gestion des livraisons</p>
+            </div>
+
+            <div class="w3-quarter ">
+                <img src="assets/images/services2.jpg " alt="Boss " style="width:45% " class="w3-circle w3-hover-opacity ">
+                <h3>TransPro </h3>
+                <p>Gestion des transports maritimes</p>
+            </div>
+
+            <div class="w3-quarter ">
+                <img src="assets/images/services3.jpg " alt="Boss " style="width:45% " class="w3-circle w3-hover-opacity ">
+                <h3>ColisExpress</h3>
+                <p>Gestion des transports aériens</p>
+            </div>
+
+            <div class="w3-quarter ">
+                <img src="assets/images/services4.jpg " alt="Boss " style="width:45% " class="w3-circle w3-hover-opacity ">
+                <h3>FleetSoft</h3>
+                <p>Gestion de parc automobile</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Notre expertise Row -->
+    <div class="w3-row-padding w3-padding-64 w3-theme-l1 " id="work ">
+
+        <div class="w3-quarter ">
+            <h1>Notre Expertise</h1>
+            <h2>Vous apporter des solutions pour booster votre organisation</h2>
+            <button onclick="document.getElementById( 'id03').style.display='block' " class="w3-button w3-xlarge w3-theme w3-hover-teal " title="Go To Soft&Training.com ">Notre Expertise</button>
+
+        </div>
+
+
+        <!-- Modal -->
+        <div id="id03" class="w3-modal">
+            <div class="w3-modal-content w3-card-4 w3-animate-top">
+                <header class="w3-container w3-teal w3-display-container">
+                    <span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+                    <h4>Notre Expertise</h4>
+                    <h5>Vous apporter des solutions pour booster votre organisation<i class="fa fa-smile-o"></i></h5>
+                </header>
+                <div class="w3-container">
+                    <p>Elle opère dans le domaine de digitalisation des systèmes d’informations des entreprises et plus précisément dans la conception de solutions de gestion des processus métiers.</p>
+                    <p>Go to our
+                        <a class="w3-text-teal" href="/w3css/default.asp">Notre expertise.com</a> to learn more!</p>
+                </div>
+                <footer class="w3-container w3-teal">
+                    <p>Lire Plus</p>
+                </footer>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="w3-quarter ">
+            <div class="w3-card w3-white ">
+                <img src="assets/images/conseil.jpg " alt="Snow " style="width:100% ">
+                <div class="w3-container ">
+                    <h1>CONSEIL</h1>
+
+                    <p>Audit et préconisations </p>
+                    <p>Maîtrise d’œuvre</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-quarter ">
+            <div class="w3-card w3-white ">
+                <img src="assets/images/integration.jpg " alt="Lights " style="width:100% ">
+                <div class="w3-container ">
+                    <h1>INTÉGRATION</h1>
+                    <p>Solutions ERP
+                    </p>
+                    <p> Solution Décisionnelle</p>
+                    <p>Solutions de mobilité</p>
+                    <p>Technique</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-quarter ">
+            <div class="w3-card w3-white ">
+                <img src="assets/images/service.jpg " alt="Mountains " style="width:100% ">
+                <div class="w3-container ">
+                    <h2>SERVICES</h2>
+
+                    <p>Mise en œuvre de vos projets
+                    </p>
+                    <p>Personnalisation</p>
+                    <p>Support</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Container -->
+    <div class="w3-container " style="position:relative ">
+        <a onclick="w3_open() " class="w3-button w3-xlarge w3-circle w3-teal " style="position:absolute;top:-28px;right:24px ">+</a>
+    </div>
+
+    <!-- Nos References Row -->
+    <div class="w3-row-padding w3-center w3-padding-64 " id="references ">
+        <h1>Nos References</h1>
+        <p>SOFT&TRAINING opère principalement dans le secteur privé et public et elle a des références à savoir :</p><br>
+        <div class="w3-third w3-margin-bottom ">
+            <ul class="w3-ul w3-border w3-hover-shadow ">
+                <li class="w3-theme ">
+                    <p class="w3-xlarge ">Privé</p>
+                </li>
+                <li class="w3-padding-16 "><b>Sanofi</b> AVENTIS-tunisie</li>
+                <li class="w3-padding-16 ">
+                    <img src="assets/images/sanofi.PNG " style="width:54%; "> </li>
+            </ul>
+        </div>
+
+        <div class="w3-third w3-margin-bottom ">
+            <ul class="w3-ul w3-border w3-hover-shadow ">
+                <li class="w3-theme-l2 ">
+                    <p class="w3-xlarge ">Public</p>
+                </li>
+                <li class="w3-padding-16 "><b>STEG</b></li>
+                <li class="w3-padding-16 "><img src="assets/images/steg.PNG " style="width: 38%; "> </li>
+
+
+            </ul>
+        </div>
+
+        <div class="w3-third w3-margin-bottom ">
+            <ul class="w3-ul w3-border w3-hover-shadow ">
+                <li class="w3-theme ">
+                    <p class="w3-xlarge ">Privé</p>
+                </li>
+                <li class="w3-padding-16 "><b>Caisse Nationale d'Assurance Maladie</b>CNAM</li>
+                <li class="w3-padding-16 "><b><img src="assets/images/cnam.PNG " style="width: 50%; "></b> </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Contact Container -->
+    <div class="w3-container w3-padding-64 w3-theme-l5 " id="contact ">
+        <div class="w3-row ">
+            <div class="w3-col m5 ">
+                <div class="w3-padding-16 "><span class="w3-xlarge w3-border-teal w3-bottombar ">Contactez-nous</span></div>
+                <h3>Nos Contact</h3>
+
+                <p><i class="fa fa-map-marker w3-text-teal w3-xlarge "></i>69 Av02 Mars Ezzahra ,Ben Arous-Tunisie</p>
+                <p><i class="fa fa-phone w3-text-teal w3-xlarge "></i>+216 52 284 028</p>
+                <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge "></i>Najoua.belhaj@gmail.com</p>
+            </div>
+            <div class="w3-col m7 ">
+                <form class="w3-container w3-card-4 w3-padding-16 w3-white " action="/action_page.php " target="_blank ">
+                    <div class="w3-section ">
+                        <label>Name</label>
+                        <input class="w3-input " type="text " name="Name " required>
+                    </div>
+                    <div class="w3-section ">
+                        <label>Email</label>
+                        <input class="w3-input " type="text " name="Email " required>
+                    </div>
+                    <div class="w3-section ">
+                        <label>Message</label>
+                        <input class="w3-input " type="text " name="Message " required>
+                    </div>
+                    <input class="w3-check " type="checkbox " checked name="Like ">
+                    <label>I Like it!</label>
+                    <button type="submit " class="w3-button w3-right w3-theme ">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image of location/map -->
+    <img src="assets/images/map.PNG " class="w3-image w3-greyscale-min " style="width:100%; ">
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center ">
+        <h4>Follow Us</h4>
+        <a class="w3-button w3-large w3-teal " href="javascript:void(0) " title="Facebook "><i class="fa fa-facebook "></i></a>
+        <a class="w3-button w3-large w3-teal " href="javascript:void(0) " title="Twitter "><i class="fa fa-twitter "></i></a>
+        <a class="w3-button w3-large w3-teal " href="javascript:void(0) " title="Google + "><i class="fa fa-google-plus "></i></a>
+        <a class="w3-button w3-large w3-teal " href="javascript:void(0) " title="Google + "><i class="fa fa-instagram "></i></a>
+        <a class="w3-button w3-large w3-teal w3-hide-small " href="javascript:void(0) " title="Linkedin "><i class="fa fa-linkedin "></i></a>
+        <p>Powered by
+            <a href="/acceuil " target="_blank ">Soft&Training</a>
+        </p>
+
+        <div style="position:relative;bottom:100px;z-index:1; " class="w3-tooltip w3-right ">
+            <span class="w3-text w3-padding w3-teal w3-hide-small ">Go To Top</span>
+            <a class="w3-button w3-theme " href="/acceuil "><span class="w3-xlarge ">
+    <i class="fa fa-chevron-circle-up "></i></span></a>
+        </div>
+    </footer>
+
+    <script>
+        // Script for side navigation
+        function w3_open() {
+            var x = document.getElementById("mySidebar ");
+            x.style.width = "300px ";
+            x.style.paddingTop = "10% ";
+            x.style.display = "block ";
+        }
+
+        // Close side navigation
+        function w3_close() {
+            document.getElementById("mySidebar ").style.display = "none ";
+        }
+
+        // Used to toggle the menu on smaller screens when clicking on the menu button
+        function openNav() {
+            var x = document.getElementById("navDemo ");
+            if (x.className.indexOf("w3-show ") == -1) {
+                x.className += " w3-show ";
+            } else {
+                x.className = x.className.replace(" w3-show ", " ");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
