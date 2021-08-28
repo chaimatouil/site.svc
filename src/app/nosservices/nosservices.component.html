@@ -1,1 +1,191 @@
-<p>nosservices works!</p>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Karma", sans-serif
+    }
+    
+    .w3-bar-block .w3-bar-item {
+        padding: 20px
+    }
+</style>
+
+
+
+<body id="myPage">
+    <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+              <i class="fa fa-remove"></i>
+            </a>
+        <a href="/quinous" class="w3-bar-item w3-button">Qui sommes nous?</a>
+        <a href="/expertise" class="w3-bar-item w3-button">Notre Expertise</a>
+        <a href="/nosservices" class="w3-bar-item w3-button">Nos Services</a>
+        <a href="/references" class="w3-bar-item w3-button">Nos references</a>
+        <a href="contact" class="w3-bar-item w3-button">Contactez-nous</a>
+    </nav>
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-theme-d2 w3-left-align">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            <a href="/acceuil" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>SOFT&TRAINING</a>
+            <a href="/quinous" class="w3-bar-item w3-button w3-hide-small w3-hover-white ">Qui sommes nous?</a>
+            <a href="/expertise " class="w3-bar-item w3-button w3-hide-small w3-hover-white ">Notre Expertise</a>
+            <a href="/nosservices " class="w3-bar-item w3-button w3-hide-small w3-hover-white ">Nos Services</a>
+            <a href="/references " class="w3-bar-item w3-button w3-hide-small w3-hover-white ">Nos references</a>
+            <a href="contact " class="w3-bar-item w3-button w3-hide-small w3-hover-white ">Contactez-nous</a>
+
+
+            <a href="/acceuil " class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal " title="Search ">Rechercher<i class="fa fa-search "></i></a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo " class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium ">
+            <a href="/quinous " class="w3-bar-item w3-button ">Qui sommes nous?</a>
+            <a href="/expertise " class="w3-bar-item w3-button ">Notre Expertise</a>
+            <a href="/nosservices " class="w3-bar-item w3-button ">Nos Services</a>
+            <a href="/contact " class="w3-bar-item w3-button ">Contactez-nous</a>
+            <a href="/acceuil" class="w3-bar-item w3-button ">Search</a>
+        </div>
+    </div>
+
+
+
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+            <h1 style="color: rgb(23, 124, 99);"><b>UNE OFFRE POUR CHAQUE MÉTIER</b></h1>
+            <div class="w3-quarter">
+                <img src="assets/images/s1.jpg" alt="Delivery" style=" width:100% ;height: 500px;">
+                <h3 style="color:rgb(18, 136, 81);"><b>Gestion des livraisons</b></h3>
+            </div>
+            <div class="w3-quarter ">
+                <img src="assets/images/s2.jpg " alt="s" style="width:100% ;height: 500px;">
+                <h3 style="color:rgb(18, 136, 81);"><b>Gestion du parc automobile</b></h3>
+
+            </div>
+            <div class="w3-quarter ">
+                <img src="assets/images/s3.jpg " alt="" style="width:100% ;height: 500px;">
+                <h3 style="color:rgb(18, 136, 81);"><b>Gestion des transport maritimes</b></h3>
+
+            </div>
+            <div class="w3-quarter ">
+                <img src="assets/images/s4.jpg " alt=" " style="width:100%;height: 500px; ">
+                <h3 style="color:rgb(18, 136, 81);"><b>Gestion des transpport aeriennes</b></h3>
+            </div>
+
+        </div>
+
+
+
+        <!-- Pagination -->
+        <div class="w3-center w3-padding-32 ">
+            <div class="w3-bar ">
+                <a href="# " class="w3-bar-item w3-button w3-hover-black ">«</a>
+                <a href="# " class="w3-bar-item w3-black w3-button ">1</a>
+                <a href="# " class="w3-bar-item w3-button w3-hover-black ">2</a>
+                <a href="# " class="w3-bar-item w3-button w3-hover-black ">3</a>
+                <a href="# " class="w3-bar-item w3-button w3-hover-black ">4</a>
+                <a href="# " class="w3-bar-item w3-button w3-hover-black ">»</a>
+            </div>
+        </div>
+
+        <hr id="about ">
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-32 w3-center ">
+            <h1 style="color: rgb(23, 124, 99);"><b>UNE ÉQUIPE EXPÉRIMENTÉE</b></h1>
+
+            <h3 style="color: rgb(83, 231, 194);">POUR UN PROJET BIEN ACCOMPAGNÉ
+            </h3><br>
+            <img src="assets/images/equipe.jpg " alt="Me " class="w3-image " style="display:block;margin:auto " width="800 " height="533 ">
+            <p>La totalité des intervenants Soft&Training, outre leurs compétences, ont acquis une expérience significative dans le cadre de leurs fonctions antérieures dans des postes de gestion industrielle ou financière.
+                <br> Vos interlocuteurs Soft&Training comprennent les enjeux de votre métier et sont donc en mesure de vous proposer des solutions pragmatiques et adaptées.</p>
+            <div class="w3-padding-32 ">
+                <h1 style="color: rgb(23, 124, 99);"><b>Une ergonomie intuitive...</b></h1>
+                <h3 style="color: rgb(83, 231, 194);">POUR UN PROJET FACILITÉ
+                </h3><br>
+                <img src="assets/images/projet.jpg " alt="Me " class="w3-image " style="display:block;margin:auto " width="800 " height="533 ">
+                <p>Soft&Training propose des solutions aux ergonomies intuitives et basées sur les standards bureautique, web, réseaux sociaux, car il est primordial que l’adhésion de vos équipes soit totale et porte votre projet.</p>
+            </div>
+            <div class="w3-padding-32 ">
+                <h1 style="color: rgb(23, 124, 99);"><b>Des technologies avancées....</b></h1>
+                <h3 style="color: rgb(83, 231, 194);">POUR DES MIGRATIONS FACILITÉES
+                </h3><br>
+                <img src="assets/images/technologie1.jpg " alt="Me " class="w3-image " style="display:block;margin:auto " width="800 " height="533 ">
+                <p>Pour accélérer votre migration, Soft&Training vous fait bénéficier de solutions basées sur les dernières technologies, avec des imports simplifiés depuis Excel, les récupérations des données ne sont plus une contrainte !</p>
+            </div>
+            <div class="w3-padding-32 ">
+                <h1 style="color: rgb(23, 124, 99);"><b>Des technologies avancées....</b></h1>
+
+                <h3 style="color: rgb(83, 231, 194);">POUR DES ADAPTATIONS FACILITÉES
+                </h3><br>
+                <img src="assets/images/technologie2.jpg " alt="Me " class="w3-image " style="display:block;margin:auto " width="800 " height="533 ">
+                <p>* Ne faites plus le choix entre une application standard ou spécifique.
+                    <br>* Les solutions choisies pour vous par Soft&Training intègrent l’ensemble des fonctionnalités de gestion nécessaires pour une gestion performante de votre entreprise.<br> * Nos solutions intègrent également des outils très performants
+                    qui vous serviront à adapter votre ERP à vos besoins, simplement, sans contraintes, et ne nécessitant pas un profil de technicien à demeure !
+                    <br>* Pour vous permettre d’être autonome dans vos adaptations, Soft&Training vous fait bénéficier de solutions basées sur les dernières innovations, intégrant des outils conviviaux et accessibles.
+                    <br>* Vous pourrez également faire vivre vos outils, de reporting, d’analyse et de pilotage afin qu’ils vous permettent d’avoir une vision claire en tous temps !
+                </p>
+            </div>
+            <div class="w3-padding-32 ">
+                <h1 style="color: rgb(23, 124, 99);"><b>Des technologies avancées....</b></h1>
+
+                <h3 style="color: rgb(83, 231, 194);">POUR FACILITER LA MIXITÉ DES PRODUITS
+
+                </h3><br>
+                <img src="assets/images/technologie3.jpg " alt="Me " class="w3-image " style="display:block;margin:auto " width="800 " height="533 "> >
+                <p>Pour qu’une entreprise soit compétitive, elle a besoin que son Système d’Informations colle parfaitement à son mode de fonctionnement. <br> Les solutions proposées par Spft&raining intègrent des outils pour modéliser vous-même vos processus
+                    et les faire vivre au rythme de votre activité, car une entreprise dynamique a besoin sans cesse de faire évoluer son système d’informations.</p>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center ">
+        <h4>Follow Us</h4>
+        <a class="w3-button w3-large w3-teal " href="javascript:void(0) " title="Facebook "><i class="fa fa-facebook "></i></a>
+        <a class="w3-button w3-large w3-teal " href="javascript:void(0) " title="Twitter "><i class="fa fa-twitter "></i></a>
+        <a class="w3-button w3-large w3-teal " href="javascript:void(0) " title="Google + "><i class="fa fa-google-plus "></i></a>
+        <a class="w3-button w3-large w3-teal " href="javascript:void(0) " title="Google + "><i class="fa fa-instagram "></i></a>
+        <a class="w3-button w3-large w3-teal w3-hide-small " href="javascript:void(0) " title="Linkedin "><i class="fa fa-linkedin "></i></a>
+        <p>Powered by
+            <a href="/acceuil " target="_blank ">Soft&Training</a>
+        </p>
+
+        <div style="position:relative;bottom:100px;z-index:1; " class="w3-tooltip w3-right ">
+            <span class="w3-text w3-padding w3-teal w3-hide-small ">Go To Top</span>
+            <a class="w3-button w3-theme " href="/acceuil "><span class="w3-xlarge ">
+<i class="fa fa-chevron-circle-up "></i></span></a>
+        </div>
+    </footer>
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar ").style.display = "block ";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar ").style.display = "none ";
+        }
+    </script>
+
+</body>
+
+</html>
