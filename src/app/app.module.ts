@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,7 +18,7 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
-
+import{ Routes } from '@angular/router';
 
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
@@ -35,6 +35,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { NosservicesComponent } from './nosservices/nosservices.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ModelComponent } from './model/model.component';
 
 const routes: Routes = [
   {path:'acceuil' , component:AcceuilComponent},
@@ -43,8 +44,6 @@ const routes: Routes = [
   {path:'nosservices' , component:NosservicesComponent},
   {path:'references' , component:ReferencesComponent},
   {path:'contact' , component:ContactComponent},
-  {path:'login' , component:LoginComponent},
-  {path:'register' , component:RegisterComponent},
   {path:'notfound' , component:NotfoundComponent},
   {path:'header' , component:HeaderComponent},
   {path:'footer' , component:FooterComponent},
@@ -60,13 +59,12 @@ const routes: Routes = [
     ServicesComponent,
     ReferencesComponent,
     ContactComponent,
-    LoginComponent,
-    RegisterComponent,
     NotfoundComponent,
     HeaderComponent,
     FooterComponent,
     MainNavComponent,
-    NosservicesComponent
+    NosservicesComponent,
+    ModelComponent
   ],
   imports: [
     BrowserModule,
