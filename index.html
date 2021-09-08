@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/CSS/sytle.css">
+    <script src="Js/script.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <!--creer la squelette de notre slides--> 
+    <div id="slider">
+        <img src="/img/img1.jpg" id="img">
+        <img src="/img/img2.jpg" id="img">
+        <img src="/img/img3.jpg" id="img">
+       
+    <!--creer une partie a gauche-->
+    <div class="entete_titre">
+    <h1>Rejoignez-nous</h1>
+   <strong>Bienvenue </strong>dans notre equipe
+
+    <div id="rs">
+        <img src="/img/fb.PNG" class="sociaux">
+        <img src="/img/twitter.PNG" class="sociaux"> 
+        <img src="/img/youtube.PNG" class="sociaux">
+        <img src="/img/insta.PNG" class="sociaux">
+
+    </div>
+    </div>
+        <div id="btn_left"><img src="/img/gauche.PNG" class="left" onclick="slider(-1)"></div>
+        <div id="btn_right"><img src="/img/droite.PNG" class="right" onclick="slider(1)"></div>
+    </div>
+
+
+<!--notre menu -->
+    <div id="menu">
+        <ul>
+            <li><a href="">Acceuil</a></li>
+            <li><a href="">Site Internet</a></li>
+            <li><a href="">Blog</a></li>
+            
+            
+            <li style="float: right"><a href="" class="active">Rejoindre</a></li>
+        </ul>
+    </div>
+
+<!--notre contenu-->
+<div id="contenu">
+    <b class="titre_section">Nos derniers projets</b>
+    <p> <h5>--Site de comparatif en ligne</h5><img src="/img/projet1.PNG" class="i"> </p>
+
+   
+    <p> <h5>--creation d'application moblie</h5><img src="/img/projet2.PNG" class="i"> </p>
+
+    <p> <h5>--Prestashop pour vente en ligne</h5><img src="/img/prestashop.PNG" class="i"> </p>
+</div>
+
+<div class="colonne">
+    <img src="/img/equipe.PNG" class="image" style="width: 100%;">
+    <div class="middle">
+        <div class="text">Notre equipe</div>
+    </div>
+</div>
+
+<div class="colonne">
+    <img src="/img/processus.PNG" class="image" style="width: 100%;">
+    <div class="middle">
+        <div class="text">Notre processus</div>
+    </div>
+</div>
+
+<div class="colonne">
+    <img src="/img/a distance.PNG" class="image" style="width: 100%;">
+    <div class="middle">
+        <div class="text">Travail a distance</div>
+    </div>
+</div>
+
+<div class="colonne">
+    <img src="/img/prise en charge.PNG" class="image" style="width: 100%;">
+    <div class="middle">
+        <div class="text">Prise en charge</div>
+    </div>
+</div>
+
+<div class="inscription_boite">
+    <h2>Postulez-vous dans notre entreprise</h2>
+    <form class="inscription">
+        <input type="email" placeholder="exemple@exemple.com" required autocomplete="off">
+        <button type="submit"><span>Inscription</span></button>
+    </form>
+</div>
+
+<div class="footer">
+    <h2>Nos partenaires</h2>
+    <img src="/img/sfr.PNG" class="sociaux">
+    <img src="/img/orange.PNG" class="sociaux">
+    <img src="/img/boygoss.PNG" class="sociaux">
+
+</div>
+
+
+
+</body>
+</html>
