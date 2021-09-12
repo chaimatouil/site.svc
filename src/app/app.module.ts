@@ -36,6 +36,7 @@ import { MatListModule } from '@angular/material/list';
 import { NosservicesComponent } from './nosservices/nosservices.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ModelComponent } from './model/model.component';
+import { ClarityModule } from '@clr/angular';
 
 const routes: Routes = [
   {path:'acceuil' , component:AcceuilComponent},
@@ -83,7 +84,8 @@ const routes: Routes = [
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    HttpClientModule
+    HttpClientModule,
+    ClarityModule
   ],
   providers: [],
   exports: [BsDropdownModule, TooltipModule, ModalModule],

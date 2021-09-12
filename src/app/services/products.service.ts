@@ -3,12 +3,20 @@ import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 import { environment } from 'src/environments/environment';
 import { Result } from '../model/result';
+import { HttpHeaders } from '@angular/common/http'; 
 
+const httpOptions = { 
+  headers: new HttpHeaders( 
+    {'Content-Type': 'application/json'} 
+    )
+  };
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductsService {
+  apiURL: string = 'http://localhost:80/backend_st/config';
+
   products = [];
   prodSubject = new Subject<any[]>();
   constructor(private http: HttpClient){
